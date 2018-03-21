@@ -1,0 +1,36 @@
+@import "mystyle.css";
+
+.submenu{
+    list-style-type: none;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.img-container{
+   position: relative;
+   text-align: center;
+   display: inline;
+   
+}
+
+.img-container a{
+    color: black;
+}
+
+.img-container img{
+    height: 125px;
+   width: 250px;
+   opacity: 0.7;
+}
+
+.img-container img:active{
+    opacity: 0.3;
+}
+
+.text-container{
+    position: absolute;
+    top: -300%;
+    right: 30%;
+    transform: translate(0%,-50%);
+}
+
